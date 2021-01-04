@@ -1,0 +1,330 @@
+@import url(//db.onlinewebfonts.com/c/42511765b3eaba28338971be9a0caf60?family=Nud+Motoya+Cedar);
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-size: 16px;
+    font-family: "Nud Motoya Cedar", sans-serif;
+    background-color: #fffff7;
+}
+
+nav {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+nav a {
+    padding: 10px ;
+    text-decoration: none;
+    color: #000;
+    flex-grow: 1;
+}
+
+
+.starter-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.starter-flex a {
+    margin: 40px 10px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #4a4a4a;
+}
+
+
+.secondary-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.secondary-flex button{
+    margin: 40px 10px
+}
+
+.button {
+    display: inline-block;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+}
+.button1 {
+    padding: 15px 30px;
+    border: 1px solid #000;
+    border-radius: 30px;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #fff;
+}
+
+.button2 {
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: 1000;
+    color: aliceblue;
+    background-color: #e9527c;
+}
+
+/* **************************************** */
+
+.main-page-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: nowrap;   
+}
+
+/* **************************************** */
+main {
+    order: 2;
+    margin: 20px 10px;
+    /* border: 2px dotted green; remove it later */
+    padding: 10px;
+}
+
+.page-title {
+    margin-bottom: 0;
+    padding: 10px;
+    padding-bottom: 0;
+    padding-left: 30px;
+    
+}
+
+.main-box-container {
+    /* border: 1px dotted #000;  */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; 
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.box {
+    display: inline-block;
+    padding: 10px 0;
+    margin: 10px 20px;
+    max-width: 148px;
+}
+
+.box p {
+    text-align: center;
+    word-wrap: break-word;
+    font-size: 16px;
+    font-weight: 500;
+    color: #4a4a4a;
+}
+
+
+.big-btn {
+    width: 140px;
+    height: 140px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 48px;
+    font-weight: 950;
+    text-align: center;
+}
+
+.blue {
+    box-shadow: 0px 25px 13px -20px #59acfa;
+    background-color: #59acfa;
+}
+
+.orange {
+    box-shadow: 0px 25px 13px -20px #fb8057;
+    background-color: #fb8057;
+}
+
+.gold {
+    box-shadow: 0px 25px 13px -20px #ffb658;
+    background-color: #ffb658;
+}
+
+.purple {
+    box-shadow: 0px 25px 13px -20px #b780fa;
+    background-color: #b780fa;
+}
+
+/* **************************************** */
+
+aside {
+    order: 1;
+    /* border: 2px dotted brown; remove it later */
+    min-width: 300px;
+    height: auto;
+    margin: 20px 30px;
+    padding: 20px;
+    background-color: #242531;
+    border: 0;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+aside h3 {
+    /* b$order:1px dotted violet; */
+    color: #94969b;
+    font-size: 20px;
+    font-weight: 500;
+    /* border: 2px dotted #fff; remove it later */
+    padding-left: 10px;
+}
+
+.adide-flex-list {
+    /* border:1px dotted violet; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.list-item {
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+}
+
+aside a {
+    color: #a9a7b3;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.linked {
+    /* border:1px dotted violet;$ */
+    margin-bottom: 100px;
+}
+
+.linked a{
+    /* border: 2px dotted #00cbfd; remove it later */
+    color: blue;
+    padding-left: 30px;
+    
+}
+
+/*******************************************************/
+
+
+.team{
+    /* border:1px dotted violet; */
+    margin-top: 150px;
+    margin-bottom: 30px;
+    align-self: flex-start;
+    justify-self: flex-end;
+}
+
+.team h3 {
+    /* border: 1px dotted yellow; */
+    text-transform: uppercase;
+    font-size: 16px;
+
+}
+
+.trail {
+    width: 250px;
+    background-color: #3a3c53;
+    margin: auto;
+    border-radius: 10px;
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+
+.trail h2 {
+    margin: 0;
+}
+
+.trail p {
+    /* border: 1px dotted springgreen; */
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.trail button {
+    margin: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #242531;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#btn {
+    /* border:1px dotted tomato; */
+}
+
+.text-trail {
+    /* border:1px dotted turquoise; */
+    width: 190px;
+    word-wrap: break-word;
+    align-self: flex-start;
+    margin: 20px;
+    margin-bottom: 0;
+}
+
+.team-title {
+    /* border: 1px dotted greenyellow; */
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 300;
+}
+/**************************************************/
+
+.footer {
+    float: right;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.footer div {
+    
+    margin: 10px ;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #9b9ca1;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.option {
+    align-self: flex-end;
+}
+
+
+footer {
+    margin: 0;
+    margin-top: 200px;
+    padding: 30px;
+    padding-bottom: 40px;
+    background-color: lightgrey;
+    font-weight: 1000;
+    text-align: center;
+}
